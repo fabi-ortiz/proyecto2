@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+main {
+    width: 1366px;
+    height: 2235px;
+    margin: 0 auto;
+    background-color: #FBFBFB;
+
+}
+
+header {
+    width: 1366px;
+    height: auto;
+    background-color: #FBFBFB;
+    text-align: center;
+
+
+}
+
+.informacion {
+    width: 1366px;
+    height: auto;
+    float: left;
+    background-color: #FBFBFB;
+}
+
+nav {
+    width: 1366px;
+    height: 50px;
+    background-color: #485935;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+
+nav a {
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 15px;
+    transition: 1s;
+    font-family: "Caveat", cursive;
+}
+
+nav a:hover {
+    background-color: #93A267;
+    transform: scale(1.2);
+}
+
+.inicio-btn {
+    width: 200px;
+    padding: 10px 15px;
+    background-color: #CADBB7;
+    font-family: "Caveat", cursive;
+    color: aliceblue;
+    border-radius: 10px;
+    position: fixed;
+    right: -90px;
+    bottom: 50px;
+    text-decoration: none;
+}
+
+.inicio-btn:hover {
+    right: -10px;
+}
+
+section {
+    width: 1366px;
+    height: 500px;
+    background-color: #FBFBFB;
+    margin: 0 auto;
+}
+
+.izquierda {
+    width: 1366px;
+    height: 366px;
+
+    margin-left: 33px;
+    margin-top: 20px;
+    float: left;
+}
+
+.textoi {
+    width: 850px;
+    height: auto;
+    float: left;
+    background-color: #FBFBFB;
+}
+
+.derecha {
+    width: 1366px;
+    height: 366px;
+
+    margin-left: 33px;
+    margin-top: 20px;
+    float: right;
+}
+
+.textod {
+    width: 900px;
+    height: 200px;
+    float: right;
+    background-color: #FBFBFB;
+}
+
+.izquierda2 {
+    width: 1366px;
+    height: 366px;
+
+    margin-left: 33px;
+    margin-top: 20px;
+    float: left;
+
+}
+
+.textoi2 {
+    width: 800px;
+    height: 200px;
+    float: left;
+    background-color: #FBFBFB;
+}
+
+.imageni {
+    width: 350px;
+    height: 300px;
+    float: right;
+    background-color: #FBFBFB;
+}
+
+
+.cuadro {
+    width: 100px;
+    height: 200px;
+
+    background-image: url(../img/animacion.png);
+    background-size: cover;
+    position: relative;
+    animation-name: animacion;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+
+@keyframes animacion {
+    0% {
+        background-color: #485935;
+        width: 200px;
+
+    }
+
+    50% {
+        background-color: #93A267;
+    }
+
+    100% {
+        background-color: #93A267;
+        width: 1300px;
+    }
+}
+
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-size: 48px;
+    margin: 0;
+}
+
+p {
+    font-family: "Agdasima", sans-serif;
+    font-size: 20px;
+
+}
+
+h2 {
+    font-family: "Pacifico", cursive;
+    font-size: 35px;
+}
+
+.imageni2 {
+
+    width: 500px;
+    height: 150px;
+    float: right;
+    background-color: #FBFBFB;
+}
+
+.imagend {
+    width: 100px;
+    height: 150px;
+    float: left;
+    background-color: #FBFBFB;
+
+}
+
+footer {
+    background-color: #485935;
+    position: absolute;
+    bottom: -450px;
+    width: 1366px;
+    height: 200px;
+    color: white;
+
+}
